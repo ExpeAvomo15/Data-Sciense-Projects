@@ -7,7 +7,7 @@ from sklearn.neighbors import KNeighborsRegressor
 from sklearn.preprocessing import MinMaxScaler
 
 # Configurar la página de Streamlit
-st.title('Predicción de la estancia del trabajador')
+st.title('Worker stay prediction')
 
 # Cargar el archivo CSV como un DataFrame de Pandas
 data = pd.read_csv('df2.csv')
